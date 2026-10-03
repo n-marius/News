@@ -1,0 +1,41 @@
+{
+  "defaults": {
+    "breakingPattern": "^(\\+\\+\\+\\s*)?(eilmeldung|eil|breaking( news)?)\\b|^\\+\\+\\+"
+  },
+  "sources": [
+    {"id": "lto", "name": "LTO", "url": "https://www.lto.de/", "feed": "https://www.lto.de/rss/feed.xml", "topics": ["iwr"], "filter": "keywords", "type": "serioes"},
+    {"id": "beck-aktuell", "name": "beck-aktuell", "url": "https://www.beck-aktuell.de/", "feed": "https://www.beck-aktuell.de/rss.xml", "topics": ["iwr"], "filter": "keywords", "type": "serioes"},
+    {"id": "ejiltalk", "name": "EJIL:Talk!", "url": "https://www.ejiltalk.org/", "feed": "https://www.ejiltalk.org/feed/", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "ielp", "name": "Int. Economic Law and Policy Blog", "url": "https://ielp.worldtradelaw.net/", "feed": "https://ielp.worldtradelaw.net/rss/", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "kluwer-arbitration", "name": "Kluwer Arbitration Blog", "url": "https://legalblogs.wolterskluwer.com/arbitration-blog/", "feed": "https://legalblogs.wolterskluwer.com/arbitration-blog/rss.xml", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "voelkerrechtsblog", "name": "Völkerrechtsblog", "url": "https://voelkerrechtsblog.org/", "feed": "https://voelkerrechtsblog.org/feed/", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "gtai", "name": "GTAI", "url": "https://www.gtai.de/", "feed": "https://www.gtai.de/de/rss", "topics": ["iwr"], "filter": "all", "type": "serioes", "optional": true},
+    {"id": "eugh", "name": "EuGH", "url": "https://curia.europa.eu/", "feed": "", "topics": ["iwr"], "filter": "keywords", "type": "serioes", "enabled": false, "note": "kein Feed gefunden"},
+    {"id": "wto", "name": "WTO", "url": "https://www.wto.org/", "feed": "https://www.wto.org/library/rss/latest_news_e.xml", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "icsid", "name": "ICSID", "url": "https://icsid.worldbank.org/", "feed": "https://icsid.worldbank.org/news-and-events/news-releases", "kind": "icsid", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "iisd-itn", "name": "IISD Investment Treaty News", "url": "https://www.iisd.org/itn/", "feed": "https://www.iisd.org/itn/en/feed/", "topics": ["iwr"], "filter": "all", "type": "serioes", "optional": true},
+    {"id": "bafa", "name": "BAFA", "url": "https://www.bafa.de/", "feed": "https://www.bafa.de/DE/Service/RSSNewsfeed/_functions/rssnewsfeed_aussenwirtschaft.xml?nn=1468854", "topics": ["iwr"], "filter": "all", "type": "serioes"},
+    {"id": "rat-eu", "name": "Rat der EU", "url": "https://www.consilium.europa.eu/", "feed": "https://www.consilium.europa.eu/de/rss/pressreleases.ashx", "topics": ["iwr"], "filter": "keywords", "type": "serioes"},
+
+    {"id": "tagesschau", "name": "tagesschau", "url": "https://www.tagesschau.de/", "feed": "https://www.tagesschau.de/index~rss2.xml", "topics": ["ukraine", "sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "dw-de", "name": "DW", "url": "https://www.dw.com/de/", "feed": "https://rss.dw.com/xml/rss-de-all", "topics": ["ukraine"], "filter": "keywords", "type": "serioes"},
+    {"id": "dw-en", "name": "DW (en)", "url": "https://www.dw.com/en/", "feed": "https://rss.dw.com/xml/rss-en-all", "topics": ["ukraine"], "filter": "keywords", "type": "serioes"},
+    {"id": "zdfheute", "name": "ZDFheute", "url": "https://www.zdfheute.de/", "feed": "https://www.zdf.de/rss/zdf/nachrichten", "topics": ["ukraine"], "filter": "keywords", "type": "serioes"},
+    {"id": "kyiv-independent", "name": "Kyiv Independent", "url": "https://kyivindependent.com/", "feed": "https://kyivindependent.com/news-archive/rss/", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+    {"id": "ukrinform-en", "name": "Ukrinform", "url": "https://www.ukrinform.net/", "feed": "https://www.ukrinform.net/rss/block-lastnews", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+    {"id": "ukrinform-de", "name": "Ukrinform", "url": "https://www.ukrinform.de/", "feed": "https://www.ukrinform.de/rss/block-lastnews", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+    {"id": "ukrainska-pravda", "name": "Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/", "feed": "https://www.pravda.com.ua/eng/rss/", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+    {"id": "euromaidan", "name": "Euromaidan Press", "url": "https://euromaidanpress.com/", "feed": "https://euromaidanpress.com/feed/", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+    {"id": "isw", "name": "ISW", "url": "https://understandingwar.org/", "feed": "https://understandingwar.org/wp-json/wp/v2/posts?per_page=30&_fields=id,date_gmt,link,title,excerpt,yoast_head_json", "kind": "wp-json", "linkContains": "/russia-ukraine/", "topics": ["ukraine"], "filter": "all", "type": "serioes"},
+
+    {"id": "ndr", "name": "NDR", "url": "https://www.ndr.de/", "feed": "https://www.ndr.de/index~rss2.xml", "topics": ["sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "mdr", "name": "MDR", "url": "https://www.mdr.de/nachrichten/", "feed": "https://www.mdr.de/nachrichten/index-rss.xml", "topics": ["sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "br24", "name": "BR24", "url": "https://www.br.de/nachrichten/", "feed": "https://www.br.de/nachrichten/", "kind": "br24", "topics": ["sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "rbb24", "name": "rbb24", "url": "https://www.rbb24.de/", "feed": "https://www.rbb24.de/aktuell/index.xml/feed=rss.xml", "topics": ["sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "dlf", "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/", "feed": "https://www.deutschlandfunk.de/nachrichten-100.rss", "topics": ["sabotage"], "filter": "keywords", "type": "serioes"},
+    {"id": "ntv", "name": "n-tv", "url": "https://www.n-tv.de/", "feed": "https://www.n-tv.de/rss", "topics": ["sabotage"], "filter": "keywords", "type": "schnell"},
+    {"id": "t-online", "name": "t-online", "url": "https://www.t-online.de/", "feed": "https://feeds.t-online.de/rss/nachrichten", "topics": ["sabotage"], "filter": "keywords", "type": "schnell"},
+    {"id": "focus", "name": "Focus Online", "url": "https://www.focus.de/", "feed": "https://www.focus.de/rss", "topics": ["sabotage"], "filter": "keywords", "type": "schnell"},
+    {"id": "bild", "name": "Bild", "url": "https://www.bild.de/", "feed": "https://www.bild.de/feed/alles.xml", "topics": ["sabotage"], "filter": "keywords", "type": "schnell", "dropPremium": true}
+  ]
+}
