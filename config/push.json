@@ -1,0 +1,5 @@
+{
+  "mode": "all",
+  "maxAgeHours": 6,
+  "maxLinesInBody": 3
+}

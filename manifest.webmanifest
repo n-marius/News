@@ -1,0 +1,17 @@
+{
+  "name": "News",
+  "short_name": "News",
+  "description": "Persönliche Nachrichtenübersicht",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#131416",
+  "theme_color": "#1e1f21",
+  "lang": "de",
+  "icons": [
+    {"src": "icons/icon-192-v1.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512-v1.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512-maskable-v1.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

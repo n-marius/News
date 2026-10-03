@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>News</title>
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1e1f21" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="News">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180-v1.png">
+<link rel="icon" type="image/png" href="icons/icon-192-v1.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <div class="bar">
+    <button id="btn-search" class="icon-btn" aria-label="Suchen">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"/></svg>
+    </button>
+    <h1>News</h1>
+    <button id="btn-bell" class="icon-btn" aria-label="Benachrichtigungen">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 0 0 2 2m6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4a1.5 1.5 0 0 0-3 0v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1z"/></svg>
+      <span id="bell-dot" class="dot" hidden></span>
+    </button>
+  </div>
+  <form id="searchbar" class="searchbar" hidden>
+    <input id="q" type="search" placeholder="Im Feed suchen" autocomplete="off" enterkeyhint="search">
+    <button type="button" id="q-close">Abbrechen</button>
+  </form>
+  <nav id="tabs" role="tablist" aria-label="Themen"></nav>
+</header>
+
+<div id="ptr" aria-hidden="true"><span></span></div>
+<main id="content" aria-live="polite"></main>
+
+<div id="sheet-back" hidden></div>
+<section id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+  <h2 id="sheet-title">Benachrichtigungen</h2>
+  <p id="sheet-text"></p>
+  <div class="sheet-actions">
+    <button id="sheet-action" class="primary"></button>
+    <button id="sheet-close">Schließen</button>
+  </div>
+</section>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

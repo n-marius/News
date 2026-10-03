@@ -1,0 +1,13 @@
+name = "news-push"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+[vars]
+VAPID_SUBJECT = "https://n-marius.github.io/News/"
+ALLOWED_ORIGIN = "https://n-marius.github.io"
+
+# KV-Speicher für die Push-Abos. Die id trägt `npx wrangler kv namespace create SUBS` ein (siehe docs/ANLEITUNG.md).
+[[kv_namespaces]]
+binding = "SUBS"
+id = "HIER_KV_ID_EINTRAGEN"
