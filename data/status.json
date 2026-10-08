@@ -1,8 +1,11 @@
 {
+ "kluwer-arbitration": {
+  "ok": true
+ },
  "ielp": {
   "ok": true
  },
- "kluwer-arbitration": {
+ "beck-aktuell": {
   "ok": true
  },
  "wto": {
@@ -14,22 +17,16 @@
  "lto": {
   "ok": true
  },
- "beck-aktuell": {
-  "ok": true
- },
  "ejiltalk": {
-  "ok": true
- },
- "bafa": {
   "ok": true
  },
  "rat-eu": {
   "ok": true
  },
- "dw-en": {
+ "bafa": {
   "ok": true
  },
- "tagesschau": {
+ "dw-en": {
   "ok": true
  },
  "dw-de": {
@@ -38,24 +35,7 @@
  "kyiv-independent": {
   "ok": true
  },
- "iisd-itn": {
-  "ok": false,
-  "error": "HTTP 403",
-  "optional": true
- },
- "ukrainska-pravda": {
-  "ok": true
- },
- "ukrinform-en": {
-  "ok": true
- },
- "zdfheute": {
-  "ok": true
- },
- "euromaidan": {
-  "ok": true
- },
- "ukrinform-de": {
+ "tagesschau": {
   "ok": true
  },
  "gtai": {
@@ -63,28 +43,45 @@
   "error": "keine Einträge gelesen",
   "optional": true
  },
- "ndr": {
+ "ukrinform-en": {
   "ok": true
  },
- "voelkerrechtsblog": {
+ "zdfheute": {
+  "ok": true
+ },
+ "ukrainska-pravda": {
+  "ok": true
+ },
+ "iisd-itn": {
+  "ok": false,
+  "error": "HTTP 403",
+  "optional": true
+ },
+ "ukrinform-de": {
+  "ok": true
+ },
+ "euromaidan": {
   "ok": true
  },
  "mdr": {
   "ok": true
  },
- "ntv": {
+ "ndr": {
   "ok": true
  },
  "br24": {
   "ok": true
  },
+ "ntv": {
+  "ok": true
+ },
  "rbb24": {
   "ok": true
  },
- "focus": {
+ "dlf": {
   "ok": true
  },
- "dlf": {
+ "focus": {
   "ok": true
  },
  "bild": {
@@ -97,5 +94,8 @@
   "ok": false,
   "error": "HTTP 403",
   "optional": false
+ },
+ "voelkerrechtsblog": {
+  "ok": true
  }
 }
