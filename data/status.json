@@ -31,21 +31,7 @@
  "voelkerrechtsblog": {
   "ok": true
  },
- "iisd-itn": {
-  "ok": false,
-  "error": "HTTP 403",
-  "optional": true
- },
- "rat-eu": {
-  "ok": true
- },
  "dw-en": {
-  "ok": true
- },
- "dw-de": {
-  "ok": true
- },
- "kyiv-independent": {
   "ok": true
  },
  "gtai": {
@@ -53,37 +39,51 @@
   "error": "keine Einträge gelesen",
   "optional": true
  },
- "euromaidan": {
+ "iisd-itn": {
+  "ok": false,
+  "error": "HTTP 403",
+  "optional": true
+ },
+ "kyiv-independent": {
+  "ok": true
+ },
+ "dw-de": {
   "ok": true
  },
  "ukrainska-pravda": {
   "ok": true
  },
+ "euromaidan": {
+  "ok": true
+ },
  "ukrinform-en": {
   "ok": true
  },
- "ndr": {
-  "ok": true
- },
- "zdfheute": {
+ "rat-eu": {
   "ok": true
  },
  "ukrinform-de": {
   "ok": true
  },
- "ntv": {
+ "zdfheute": {
   "ok": true
  },
  "mdr": {
   "ok": true
  },
+ "ntv": {
+  "ok": true
+ },
  "rbb24": {
   "ok": true
  },
- "br24": {
+ "dlf": {
   "ok": true
  },
- "dlf": {
+ "ndr": {
+  "ok": true
+ },
+ "br24": {
   "ok": true
  },
  "isw": {
