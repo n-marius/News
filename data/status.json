@@ -11,19 +11,19 @@
  "wto": {
   "ok": true
  },
- "icsid": {
-  "ok": true
- },
  "lto": {
   "ok": true
  },
- "ejiltalk": {
+ "icsid": {
   "ok": true
  },
  "bafa": {
   "ok": true
  },
  "rat-eu": {
+  "ok": true
+ },
+ "ejiltalk": {
   "ok": true
  },
  "dw-en": {
@@ -38,10 +38,8 @@
  "kyiv-independent": {
   "ok": true
  },
- "iisd-itn": {
-  "ok": false,
-  "error": "HTTP 403",
-  "optional": true
+ "voelkerrechtsblog": {
+  "ok": true
  },
  "gtai": {
   "ok": false,
@@ -54,52 +52,50 @@
  "ukrainska-pravda": {
   "ok": true
  },
+ "iisd-itn": {
+  "ok": false,
+  "error": "HTTP 403",
+  "optional": true
+ },
+ "ukrinform-en": {
+  "ok": true
+ },
+ "ukrinform-de": {
+  "ok": true
+ },
  "zdfheute": {
-  "ok": true
- },
- "voelkerrechtsblog": {
-  "ok": true
- },
- "ndr": {
-  "ok": true
- },
- "rbb24": {
   "ok": true
  },
  "mdr": {
   "ok": true
  },
- "ntv": {
-  "ok": true
- },
- "dlf": {
+ "rbb24": {
   "ok": true
  },
  "br24": {
   "ok": true
  },
- "isw": {
-  "ok": false,
-  "error": "HTTP 403",
-  "optional": false
- },
- "t-online": {
+ "dlf": {
   "ok": true
  },
- "bild": {
+ "ntv": {
   "ok": true
  },
  "focus": {
   "ok": true
  },
- "ukrinform-en": {
-  "ok": false,
-  "error": "Command failed: curl -sSL --fail --compressed -m 25 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1",
-  "optional": false
+ "ndr": {
+  "ok": true
  },
- "ukrinform-de": {
+ "bild": {
+  "ok": true
+ },
+ "t-online": {
+  "ok": true
+ },
+ "isw": {
   "ok": false,
-  "error": "Command failed: curl -sSL --fail --compressed -m 25 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1",
+  "error": "HTTP 403",
   "optional": false
  }
 }
