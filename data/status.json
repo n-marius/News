@@ -1,46 +1,44 @@
 {
- "kluwer-arbitration": {
-  "ok": true
- },
  "ielp": {
   "ok": true
  },
- "beck-aktuell": {
+ "kluwer-arbitration": {
   "ok": true
  },
  "wto": {
   "ok": true
  },
+ "lto": {
+  "ok": true
+ },
  "icsid": {
   "ok": true
  },
- "lto": {
+ "beck-aktuell": {
+  "ok": true
+ },
+ "ejiltalk": {
   "ok": true
  },
  "rat-eu": {
   "ok": true
  },
- "ejiltalk": {
-  "ok": false,
-  "error": "keine Einträge gelesen",
-  "optional": false
- },
  "bafa": {
-  "ok": true
- },
- "dw-de": {
   "ok": true
  },
  "tagesschau": {
   "ok": true
  },
- "dw-en": {
+ "voelkerrechtsblog": {
   "ok": true
  },
  "kyiv-independent": {
   "ok": true
  },
- "voelkerrechtsblog": {
+ "dw-en": {
+  "ok": true
+ },
+ "dw-de": {
   "ok": true
  },
  "ukrainska-pravda": {
@@ -54,13 +52,13 @@
   "error": "HTTP 403",
   "optional": true
  },
- "ukrinform-en": {
-  "ok": true
- },
  "gtai": {
   "ok": false,
   "error": "keine Einträge gelesen",
   "optional": true
+ },
+ "ndr": {
+  "ok": true
  },
  "ukrinform-de": {
   "ok": true
@@ -68,20 +66,22 @@
  "zdfheute": {
   "ok": true
  },
- "rbb24": {
+ "ukrinform-en": {
   "ok": true
  },
  "mdr": {
   "ok": true
  },
- "br24": {
-  "ok": true
- },
  "ntv": {
   "ok": true
  },
- "ndr": {
+ "rbb24": {
   "ok": true
+ },
+ "isw": {
+  "ok": false,
+  "error": "HTTP 403",
+  "optional": false
  },
  "dlf": {
   "ok": true
@@ -89,10 +89,8 @@
  "focus": {
   "ok": true
  },
- "isw": {
-  "ok": false,
-  "error": "HTTP 403",
-  "optional": false
+ "br24": {
+  "ok": true
  },
  "bild": {
   "ok": true
